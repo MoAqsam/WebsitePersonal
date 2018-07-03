@@ -134,8 +134,13 @@
   </body>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="./js/main.js"></script>
-<<<<<<< HEAD
-=======
-<script type="application/javascript" src="http://jsonip.appspot.com/?callback=getip"></script>
->>>>>>> 062edf297a0c2c8afc9ec90305c6a138cbf9f010
+  <?php
+  $ipAddress = $_SERVER["REMOTE_ADDR"];
+
+  if ($ipAddress == "99.235.13.69"){
+    echo "<script type='text/javascript'>alert('$ipAddress');</script>";
+    echo "<script type='text/javascript' src='./js/login.js'></script>";
+  }
+
+   ?>
 </html>
