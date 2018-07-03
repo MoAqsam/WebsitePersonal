@@ -9,14 +9,6 @@
   gtag('js', new Date());
   gtag('config', 'UA-121326446-1');
 </script>
-<?php
-$ipAddress = $_SERVER["REMOTE_ADDR"];
-
-if ($ipAddress == "99.235.13.69"){
-  echo "<script type='text/javascript'>alert('$ipAddress');</script>";
-}
-
- ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to Muhammad Aqsam's portfolio website, browse through to learn more.">
