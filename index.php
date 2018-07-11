@@ -42,6 +42,10 @@
         <span class="h1">My recent work<div class="line-hor"></div></span>
 
         <div class="work-outter">
+          <div class="work-box">
+          <a href="https://muhammad-aqsam.herokuapp.com/"><h2>Project Managment App</h2></a>
+          <p>Created a project management app using ReactJS that gets data from a API.</p>
+        </div>
         <div class="work-box">
           <a href="https://handyenterpriseinc.com/"><h2>Handy Enterprise Inc</h2></a>
           <p>Currently developing a e-commerce website for a client on Shopify.</p>
