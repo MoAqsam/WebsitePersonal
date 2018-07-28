@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to Muhammad Aqsam's portfolio website, browse through to learn more.">
-    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/icons/favicon.png" type="image/x-icon">
     <!--RESET-->
     <link rel="stylesheet" href="./css/reset.css">
     <!--STYLESHEET-->
@@ -26,16 +26,17 @@
         <h2>I'm a Full-Stack/Software Developer</h2>
         <a href="#work"><img src="./icons/arrow.png" alt="down arrow"></a>
         <div class="overlay-plain"></div>
+
     </div>
+
     <div class="menu">
       <nav>
-        <a href="#" id="menu-icon"><img src="./icons/menu-icon.png" alt="menu icon"></a>
-<br> <br> <br> <br>
-            <a href="#work">Work</a><br>
-            <a href="#about">About</a><br>
-            <a href="#skills">Skills</a><br>
-            <a href="#contact">Contact</a><br>
-      </nav>
+              <img src="./icons/menu-icon.png" alt="menu icon">
+              <a href="#work">Work</a>
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#contact">Contact</a>
+          </nav>
     </div>
     <div class="clear"></div>
     <div class="work" id="work">

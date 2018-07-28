@@ -23,7 +23,7 @@ p {
   font-size: 16px;
 }
 a {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 img {
@@ -70,24 +70,29 @@ span {
 .clear {
   clear: both;
 }
+/*Menu*/
 .menu {
-  z-index: 5;
+  width: 100%;
+  max-height: 250px;
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
 }
-nav {
-  height: 10px;
-}
-.menu nav a:first-of-type {
-  display: none;
+.menu nav img {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .menu nav a {
   display: none;
-  color: rgb(43,164,172);
-  padding: 10px;
+  padding: 15px;
+  color: white;
+  font-size: 22px;
 }
-#menu-icon {
-float: left;
+nav a:hover {
+  color: grey;
 }
-
 /*landingpage*/
 .landingpage {
   min-height: 10px;
@@ -259,10 +264,29 @@ footer a {
   font-size: 10px;
   color: white;
 }
-
-
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .menu {
+    width: 100%;
+    height: 56.67px;
+    background: rgb(43,164,172) !important;
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+  }
+  .menu nav img {
+    display: none !important;
+  }
+  .menu nav a {
+    display: inline-block !important;
+    padding: 15px;
+    color: white;
+    font-size: 22px;
+  }
+  nav a:hover {
+    color: black;
+  }
   .profile-img img {
     height: 170px;
     width: 170px;
@@ -289,6 +313,7 @@ footer a {
         flex-wrap: wrap;
 
   }
+
   .outter {
     margin: 0 auto;
     display: -webkit-box;
@@ -302,6 +327,7 @@ footer a {
   .box {
     width: 30%;
   }
+
  }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
